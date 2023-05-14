@@ -25,14 +25,11 @@ nextCh: # ==============================
         # Fügen Sie hier Ihre Lösung ein
         # ==============================
 
-
-
-
-
-
-
-		
-
+	lb 	$t0, ($a0)	# load Byte at address $a0 in $t0
+	beq 	$t0, $t5, null	
+	beq 	$t0, $t6, eins
+	beqz 	$t0, strEnd
+	
         # ==============================
         # Ende Ihrer Lösung
         # ==============================
@@ -46,13 +43,8 @@ eins:				# Bit war 1
         # Fügen Sie hier Ihre Lösung ein
         # ==============================
 
-
-
-
-
-
-		
-
+	lw 	$t2, ($t1)	# lade Stelle aus 
+	add 	$t7, $t7, $t2
 
         # ==============================
         # Ende Ihrer Lösung
