@@ -43,7 +43,7 @@ eins:				# Bit war 1
         # Fügen Sie hier Ihre Lösung ein
         # ==============================
 
-	lw 	$t2, ($t1)	# lade Stelle aus 
+	lw 	$t2, ($t1)	# lade Stelle aus Register
 	add 	$t7, $t7, $t2
 
         # ==============================
